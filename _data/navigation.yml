@@ -24,7 +24,7 @@ main:
     url: /year-archive/
     
   - title: "CV"
-    url: /cv/cv.md
+    url: https://github.com/MauricioGS99/mauricio_gzz-soto/blob/master/cv/cv.md
     
   # - title: "CV"
   #   url: /cv-json/
