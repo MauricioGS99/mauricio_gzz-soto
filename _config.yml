@@ -7,30 +7,35 @@
 # server process.
 
 # Basic Site Settings
-locale                   : "en-US"
-site_theme               : "contrast" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Your Name / Site Title"
-title_separator          : "-"
-name                     : &name "Mauricio Gonzalez-Soto"
-description              : &description "Computer Science professor at Tec de Monterrey"   # Update this with a general description of your site, this is the default if not overridden by a page
-url                      : https://mauriciogs99.github.io/mauricio_gzz-soto/ # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
-                                                           # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
-baseurl                  : ""
-repository               : "mauricio_gzz-soto.github.io"
+locale:          "en-US"    # o "es-MX" si prefieres en español
+title:           "Mauricio Gonzalez-Soto"
+title_separator: "-"
+name:            &name "Mauricio Gonzalez-Soto"
+description:     &description "Professor at Tecnologico de Monterrey. Research in causal inference, decision theory, and Bayesian statistics."
+url:             "https://mauriciogs99.github.io"
+baseurl:         ""  # cambia a "" si renombras el repo
+repository:      "/MauricioGS99/MauricioGS99.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
-  # Biographic information
-  avatar           : "profile.png"
-  name             : "Mauricio Gonzalez-Soto"
-  pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Monterrey, Mexico"
-  employer         : "Tecnológico de Monterrey"
-  uri              : # URL
-  email            : "mauricio.gonzalez.soto@tec.mx" 
+  avatar:        "profile.png"
+  name:          "Mauricio Gonzalez-Soto"
+  pronouns:      # dejalo vacio o pon lo que quieras
+  bio:           "Professor at Tecnologico de Monterrey. PhD in Computer Science (INAOE). Research interests: causal inference, decision theory, Bayesian statistics, and AI."
+  location:      "Monterrey, Mexico"
+  employer:      "Tecnologico de Monterrey"
+  uri:           "https://research.tec.mx/vivo-tec/display/PID_506991"
+  email:         "mauricio.gonzalez.soto@tec.mx"
+  # --- Redes sociales: ELIMINA o COMENTA las que NO uses ---
+
+  github:        "MauricioGS99"  # <-- CAMBIAR de "academicpages"
+  googlescholar: "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  orcid:         "https://orcid.org/0000-0003-2668-9013"
+  pubmed:        # ELIMINA si no tienes PubMed propio
+  linkedin:      # agrega si tienes
+  twitter:       # agrega si tienes (ahora X)
 
   # Academic websites
   academia         : # URL
